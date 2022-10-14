@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="/js/jquery-3.6.1.js"></script>
+    <script src="/js/addTask.js"></script>
+    <link rel="stylesheet" href="/css/user.css">
+    <title>Add Task</title>
+</head>
+
+<body>
+    <h1>{{title}}</h1>
+    <button id="backBtn">Back</button>
+    <br>
+    <form id="taskForm">
+        <label>Task</label>
+        <input type="text">
+        <br>
+        <br>
+        <label>Status</label>
+        <select>
+            <option>Complete</option>
+            <option>InComplete</option>
+        </select>
+        <br>
+        <br>
+        <label>Owner</label>
+        <select>
+            <option>Arun</option>
+            <option>Ram</option>
+            <option>Kumar</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="save">
+        <input type="reset" value="reset">
+    </form>
+</body>
